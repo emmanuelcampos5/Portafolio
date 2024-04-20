@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(90deg, #4831d4 67%, #ccf381 33%);
+}
+
+.nav{
+    height: 100px;
+    align-items: center;
+}
+
+.row{
+    padding: 50px;
+}

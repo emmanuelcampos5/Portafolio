@@ -1,11 +1,16 @@
 body{
     color: white;
     font-size: larger;
+    background: linear-gradient(90deg, #4831d4 67%, #ccf381 33%);
 }
 
-.nav{
+.navbar{
     height: 100px;
     align-items: center;
+}
+
+.nav-link{
+    color: black;
 }
 
 .row{
@@ -14,14 +19,28 @@ body{
     align-items: center;
 }
 
-h1{
+.display-1{
     color: #ccf381;
-    font-size: 90px;
+}
+
+.imagen-portada{
+    width: 100%;
 }
 
 
-@media(min-width: 576px) {
+.seccion1{
+    padding: 15%;
+    background: #F9F9F9;
+    color: black;
+}
+
+.seccion2{
+    padding: 15%;
+    background: #4831d4;
+}
+
+@media(max-width: 576px) {
     body{
-        background: linear-gradient(90deg, #4831d4 67%, #ccf381 33%);
+        background: #4831d4;
     }
 }

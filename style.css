@@ -23,15 +23,22 @@ body{
     color: #ccf381;
 }
 
+
 .imagen-portada{
     width: 100%;
 }
 
 
 .seccion1{
-    padding: 15%;
+    padding: 15% 5% 15% 5%;
     background: #F9F9F9;
     color: black;
+}
+
+.col{
+    height: 170px;
+    background: white;
+    margin: 1%;
 }
 
 .seccion2{

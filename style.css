@@ -30,13 +30,13 @@ body{
 
 
 .seccion1{
-    padding: 15% 5% 15% 5%;
+    padding: 14% 5% 14% 5%;
     background: #F9F9F9;
     color: black;
 }
 
-.col{
-    height: 170px;
+.cuadros{
+    height: 160px;
     background: white;
     margin: 1%;
 }

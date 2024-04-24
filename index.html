@@ -58,18 +58,17 @@
                     <img class="imagen-portada" src="assets/handsome.png" alt="A handsome person">
                 </div>
             </div>
-
         </div>
         <!-- Seccion 2 -->
         <div class="container-fluid seccion1">
-            <div class="row">
+            <div class="row card card1">
                 <p class="display-2 subtitulos">Sobre mi</p>
                 <p>Estudiante de Informática Empresarial con una pasión por la tecnología y el desarrollo de
                     software. Actualmente buscando oportunidades para adquirir experiencia práctica en una
                     variedad de tecnologías del mercado actual. Estoy comprometido con el aprendizaje continuo y
                     la mejora de mis habilidades en programación.</p>
             </div>
-            <div class="row">
+            <div class="row mt-5 card card1">
                 <p class="display-2 text-end subtitulos">Skills</p>
                 <div class="row justify-content-center">
                     <div class="col-xl col-5 cuadros position-relative">
@@ -116,7 +115,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-5 card card1">
                 <p class="display-2 subtitulos">Hobbies</p>
                 <div class="row justify-content-center">
                     <div class="col-sm cuadros position-relative">
@@ -148,24 +147,35 @@
         </div>
         <!-- Seccion 3 -->
         <div class="container-fluid seccion2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <p class="display-2 mb-5">Fullstack Developer</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad incidunt commodi quo ex est</p>
-                    </div>
-                    <div class="col-6">
-
-                    </div>
+            <div class="row">
+                <p class="display-2 mb-4">Formacion Academica</p>
+                <div class="col-6">
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                        <div class="card card2">
+                            <img src="assets/ucr-imagen.jpg" class="img-fluid">
+                            <p class="card-title mt-4 h3">Universidad de Costa Rica</p>
+                            <p class="small-desc">
+                                Bachillerato en Informática Empresarial
+                            </p>
+                            <div class="go-corner">
+                                <div class="go-arrow">→</div>
+                            </div>
+                        </div>
+                    </button>
                 </div>
-                <div class="row">
-                    <div class="col-6">
-
-                    </div>
-                    <div class="col-6">
-                        <p class="display-2 mb-5">Fullstack Developer</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad incidunt commodi quo ex est</p>
-                    </div>
+                <div class="col-6">
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <div class="card card2">
+                            <img src="assets/oracle-imagen.jpg" class="img-fluid">
+                            <p class="card-title mt-4 h3">Oracle Next Education</p>
+                            <p class="small-desc">
+                                Especializacion en Front-end
+                            </p>
+                            <div class="go-corner">
+                                <div class="go-arrow">→</div>
+                            </div>
+                        </div>
+                    </button>
                 </div>
             </div>
         </div>
@@ -184,3 +194,39 @@
 </body>
 
 </html>
+
+<!-- Modal 1 -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Modal 1
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Modal 2
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

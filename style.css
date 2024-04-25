@@ -70,7 +70,6 @@ body{
 }
 
 
-
 @media(max-width: 778px) {
     body{
         background: #4831d4;
@@ -105,6 +104,7 @@ body{
   }
   
   .card2 {
+    height: 100%;
     display: block;
     position: relative;
     background-color: #f2f8f9;

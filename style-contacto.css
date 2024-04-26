@@ -1,7 +1,7 @@
 .contacto {
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
     gap: 0.5em;
   }
   
@@ -18,8 +18,8 @@
   }
   
   .card3 {
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     outline: none;
     border: none;
     background: white;
@@ -36,8 +36,8 @@
   }
   
   .card4 {
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     outline: none;
     border: none;
     background: white;
@@ -54,8 +54,8 @@
   }
   
   .card5 {
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     outline: none;
     border: none;
     background: white;
@@ -71,8 +71,8 @@
   }
   
   .card6 {
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     outline: none;
     border: none;
     background: white;

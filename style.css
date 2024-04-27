@@ -32,7 +32,8 @@ body{
 
 .seccion1{
     padding: 14% 5% 14% 5%;
-    background: white;
+    background: url(assets/background.png);
+    background-size: cover;
     color: black;
 }
 

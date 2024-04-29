@@ -1,4 +1,6 @@
-
+function desplazar(section) {
+    document.getElementById(section).scrollIntoView({ behavior: 'smooth' });
+}
 
 function redirigir(text){
     if(text == "whatsapp"){

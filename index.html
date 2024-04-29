@@ -19,13 +19,16 @@
     <header>
         <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre Mi</a>
+              <a class="nav-link" onclick="desplazar('sobreMi')">Sobre Mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Proyectos</a>
+                <a class="nav-link" onclick="desplazar('formacionAcademica')">Formacion</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="desplazar('proyectos')">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" onclick="desplazar('contacto')">Contacto</a>
             </li>
           </ul>
     </header>
@@ -57,7 +60,7 @@
             </div>
         </div>
         <!-- Seccion 2 Sobre mi-->
-        <div class="container-fluid seccion1">
+        <div class="container-fluid seccion1" id="sobreMi">
             <div class="row card1">
                 <p class="display-2 subtitulos">Sobre mi</p>
                 <p>Estudiante de Informática Empresarial con una pasión por la tecnología y el desarrollo de
@@ -143,7 +146,7 @@
             </div>
         </div>
         <!-- Seccion 3 Formacion-->
-        <div class="container-fluid seccion2">
+        <div class="container-fluid seccion2" id="formacionAcademica">
             <p class="display-2">Formacion Academica</p>
             <div class="row">
                 <div class="col-lg-6 col-12">
@@ -177,7 +180,7 @@
             </div>
         </div>
         <!-- Seccion 4 Proyectos-->
-        <div class="container-fluid seccion1">
+        <div class="container-fluid seccion1" id="proyectos">
             <p class="display-2 subtitulos">Proyectos</p>
             <div class="row mt-5 card1">
                 <p class="display-5 mb-4">1- Encriptador de Texto</p>
@@ -249,7 +252,7 @@
             </div>        
         </div>
         <!-- Seccion 5 Contacto-->
-        <div class="container-fluid seccion2">
+        <div class="container-fluid seccion2" id="contacto">
             <div class="row">
                 <div class="col">
                     <p class="display-2 text-center">Forma de Contacto</p>

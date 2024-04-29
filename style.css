@@ -5,13 +5,13 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.navbar{
+.nav{
     height: 100px;
     align-items: center;
 }
 
 .nav-link{
-    color: black;
+    color: white;
 }
 
 .row{
@@ -76,8 +76,8 @@ body{
         background: #4831d4;
     }
 
-    .nav-link{
-        color: #ccf381;
+    .nav{
+        justify-content: center;
     }
 }
 
